@@ -41,3 +41,7 @@ func (*Context) Done() {
 func (*Context) Err() {
 
 }
+
+func (*Context) Value(interface{}) interface{} {
+	return nil
+}
