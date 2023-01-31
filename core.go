@@ -13,3 +13,7 @@ func NewCore() *Core {
 func (*Core) ServeHTTP(req *http.Request, resp http.ResponseWriter) {
 	//
 }
+
+func (*Core) MatchRouteHanlder()
+
+type Handler func(ctx Context)
