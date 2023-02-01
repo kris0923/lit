@@ -1,1 +1,2 @@
-# lit
+# lite 
+a simple web framework
